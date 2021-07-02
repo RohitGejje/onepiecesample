@@ -1,0 +1,65 @@
+
+
+body{margin: 0em; padding: 0em;
+font-family: Calibri;
+color: white;
+background-color: black;
+height: 100%;
+width: 100%;}
+
+.backgroundimage 
+{height: 100%;
+width: 100%;
+position: absolute;
+top: 0px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
+url(/images/onepiece.jpg);
+z-index: -1;
+background-size: cover;
+}
+
+.navbar {padding: 1em;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)40%, rgba(0, 0, 0, 0));}
+.navbar>nav>ul>img {margin-right: 1em;
+                    margin-left: 1em;}
+.navbar>nav>ul {display: flex;}
+.navbar>nav>ul>li {display: block;
+                   margin: auto;}
+.link {text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.25em;
+        padding: 1em;}
+                   
+
+.hugelogo {text-align: center;}
+
+
+
+
+.news {text-align: center;}
+.news>ul {display: flex;}
+.news>ul>li {display:block; margin: auto;}
+
+
+.about>h1 {text-align: center;}
+.about>p {margin: 2em;}
+
+.membershome {text-align: center;}
+.membershome>ul {display: flex;}
+.membershome>ul>li {display: block;
+                    margin: auto;}
+
+.galleryhome {text-align: center;}
+.galleryhome>img {margin: 0.5em;}
+
+.historyhome {text-align: center;
+margin-top: 3rem;}
+
+
+/* javascript starts here*/
+
+.link:hover {background: radial-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0)75%);
+    border-radius: 10%;}
