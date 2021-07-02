@@ -21,6 +21,8 @@ z-index: -1;
 background-size: cover;
 }
 
+/*--------------I think the problem lies here------------------------*/
+
 .navbar {padding: 1em;
     background: linear-gradient(rgba(0, 0, 0, 0.6)40%, rgba(0, 0, 0, 0));}
 .navbar>nav>ul>img {margin-right: 1em;
@@ -32,7 +34,7 @@ background-size: cover;
         color: rgb(255, 255, 255);
         font-size: 1.25em;
         padding: 1em;}
-                   
+/*---------------------------------------------------------------------*/
 
 .hugelogo {text-align: center;}
 
