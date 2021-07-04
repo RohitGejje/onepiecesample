@@ -27,7 +27,8 @@ background-size: cover;
     background: linear-gradient(rgba(0, 0, 0, 0.6)40%, rgba(0, 0, 0, 0));}
 .navbar>nav>ul>img {margin-right: 1em;
                     margin-left: 1em;}
-.navbar>nav>ul {display: flex;}
+.navbar>nav>ul {display: flex;
+                flex-wrap:wrap;}
 .navbar>nav>ul>li {display: block;
                    margin: auto;}
 .link {text-decoration: none;
