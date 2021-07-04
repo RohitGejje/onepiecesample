@@ -51,7 +51,8 @@ background-size: cover;
 .about>p {margin: 2em;}
 
 .membershome {text-align: center;}
-.membershome>ul {display: flex;}
+.membershome>ul {display: flex;
+                flex-wrap: wrap;}
 .membershome>ul>li {display: block;
                     margin: auto;}
 
