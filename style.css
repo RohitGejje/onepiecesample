@@ -1,0 +1,101 @@
+body{margin: 0em; padding: 0em;
+font-family: Calibri;
+color: white;
+background-color: black;
+height: 100%;
+width: auto;}
+
+.backgroundimage 
+{height: 100%;
+width: 100%;
+position: absolute;
+top: 0px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
+url(images/onepiecewallpaper.jpg);
+z-index: -1;
+background-size: contain;
+}
+
+.navbar {margin: 0px;
+    
+    padding: 1em;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)40%, rgba(0, 0, 0, 0));}
+.navbar>nav>ul {display: flex;
+                flex-wrap:wrap;}
+.navbar>nav>ul>li {display: block ;
+                   margin: auto;}
+.link {text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.3125em;
+        padding: 1em;}
+.navbar>nav>ul>li:nth-child(1) {background-image: url(images/ink.png);
+                            background-size:60%;
+                            background-repeat: no-repeat;}
+.navbar>nav>ul>li:nth-child(2) {background-image: url(images/ink.png);
+                            background-size:56%;
+                            background-repeat: no-repeat;}
+.navbar>nav>ul>li:nth-child(3) {background-image: url(images/ink.png);
+                            background-size:56%;
+                            background-repeat: no-repeat;}
+.navbar>nav>ul>li:nth-child(4) {background-image: url(images/ink.png);
+                            background-size:60%;
+                            background-repeat: no-repeat;}
+
+
+
+
+.hugelogo {text-align: center;}
+.bigimghome 
+            {margin-top: 3em;
+            margin-bottom: 3em;
+            width: 80%;
+            max-width: 800px;}
+
+
+
+.news {text-align: center;}
+.news>ul {display: flex;}
+.news>ul>li {display:block; margin: auto;}
+
+
+.about {text-align: center;
+        margin: 9%;}
+.aboutpara {max-width: 50em;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.125em;}
+
+.membershome {text-align: center;}
+.membershome>ul {display: flex;
+                flex-wrap: wrap;}
+.membershome>ul>li {display: block;
+                    margin: auto;}
+
+.galleryhome {text-align: center;}
+.galleryhome>img {margin: 0.5em;}
+
+.historyhome {text-align: center;
+            margin: 2rem;}
+
+
+footer>nav>ul
+    {display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin-top: 1em;
+    padding-top: 1em;}
+footer>nav>ul>li 
+    {display: block;
+    margin: auto;}
+.iglogo 
+    {display: block;
+    background-color: blueviolet;
+    size: 2em;}
+
+
+/* javascript starts here*/
+
+.link:hover {background: radial-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0)75%);
+    border-radius: 10%;}
