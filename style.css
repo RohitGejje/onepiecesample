@@ -15,7 +15,7 @@ right: 0px;
 left: 0px;
 background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url(images/onepiecewallpaper.jpg);
 z-index: -1;
-background-size: cover;
+background-size: contain;
 }
 
 .navbar {margin: 0px;
